@@ -21,6 +21,9 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -71,5 +74,15 @@ button {
     border: none;
     padding: 1%;
     margin: 1%;
+    border-radius: 7px;
+}
+
+.fund-button {
+    font-family: 'Cabin';
+    color: white;
+    background-color: #758190;
+    border: none;
+    padding: 5%;
+    margin: 5%;
     border-radius: 7px;
 }
